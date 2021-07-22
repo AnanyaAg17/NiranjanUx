@@ -1,0 +1,61 @@
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  label{
+      font-size:125%;
+  }
+  
+  .container {
+      width:50%;
+    margin:25px;
+    margin-left:25%;
+    padding: 16px;
+    background-color: rgb(196, 189, 238);
+    border-radius: 10px;
+  }
+  
+ 
+  input[type=text] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f0e4e4e7;
+  }
+  
+  input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+  hr {
+    border: 1px solid #c8c9f3;
+    margin-bottom: 25px;
+  }
+  
+ 
+  .registerbtn {
+    background-color: #616da0;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+
+  a {
+    color: dodgerblue;
+  }
+  

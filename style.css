@@ -1,0 +1,112 @@
+body{
+    background-color:rgb(143, 148, 188);
+    text-align:center;
+}
+.left{
+  width:25%;
+  height:25%;
+  float:left;
+}
+.right{
+  width:25%;
+  height:25%;
+  float:right;
+}
+
+.box{
+    background-color:rgb(163, 171, 228) ;
+    
+    width:fit-content;
+    border:blueviolet;
+    border-radius:10px;
+    margin-left:35%;
+    margin-top:10px;
+}
+.home{
+     background-color:rgb(196, 189, 238);
+     width:40%;
+     margin-left:30%;
+    padding:10px;
+    border-radius: 10px;
+    margin-top:60px;
+    padding-bottom:20px;;
+}
+.colony{
+  border-radius: 20px;
+  width:35%;
+  font-size: 125%;
+  background-color:rgb(163, 171, 228) ;
+  padding:10px;
+}
+
+button:hover{
+  background-color:rgb(144, 148, 190) ;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(151, 166, 199);
+     
+    position: sticky;
+    top: 0;
+    border:1px solid rgb(201, 201, 216);
+    font-size: 17px;
+    width:50%;
+    margin-left: 25%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid rgb(201, 201, 216);
+  }
+  li:first-child{
+    padding-left:5px;
+    padding-right:150px;
+    border-right:1px solid rgb(201, 201, 216);
+    border-left:none;
+    padding-top:5px;
+  }
+  li:last-child{
+    margin-left:150px;
+    border-right:none;
+    border-left:none;
+    padding-top:5px;
+    
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(146, 162, 196);
+  }
+  
+  .active {
+    background-color:rgb(145, 110, 168);
+  }
+.dark{
+    background-color:rgb(143, 148, 188);
+}
+
+#position{
+    margin-top:5px;
+}
+
+#demo{
+
+    margin-left:15%;
+    
+    background-color:rgb(161, 169, 226);
+    width:700px;
+    border-radius: 15px;
+    border-color:cornsilk;
+    border-width: 4px;;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 35px;
+}
